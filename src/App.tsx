@@ -119,7 +119,7 @@ function App() {
   }, [])
 
   return (
-    <div>
+    <div className="w-96">
       <div className="grid grid-cols-[repeat(24,1fr)] grid-rows-[repeat(24,1fr)]">
         {new Array(576).fill("").map((_, index) => {
           if (
